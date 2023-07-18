@@ -2,7 +2,7 @@
 ## A model based on the S&P Case-Schiller home price index
 In this project, we have developed a data science model to analyze and understand the relationship between key supply-demand factors and the S&P Case-Schiller Home Price Index in the United States. The model utilizes publicly available datasets to examine how these factors have influenced home prices over the past two decades, specifically from 2000 to 2020. By examining the data and building the model, we aim to provide insights into the factors that have impacted home prices during this period[2000-2020]
 ## Factors which can impact US home prices 
-[image]
+![mece](https://github.com/yasirali09/task.llc/blob/master/images/mece.jpeg)
 
 ## Data points collected
 ### Demographic
