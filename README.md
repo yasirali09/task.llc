@@ -138,7 +138,7 @@ A Lasso regression with a alpha 0.014 is used to model the S&P Case-Schiller Hom
 
 ![prediction](https://github.com/yasirali09/task.llc/assets/36191186/7dd0f050-d6b7-4717-93f2-d821abb6611d)
 
-####Metrics 
+#### Metrics 
 * MSE = 35.23196017633148
 * RMSE = 5.935651621880404
 * R2 = 0.84
