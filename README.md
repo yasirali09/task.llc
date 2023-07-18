@@ -14,17 +14,17 @@ In this project, we have developed a data science model to analyze and understan
 * average expenditure 45-54
 * average-expenditure-55-64
 
-![demo](https://github.com/yasirali09/task.llc/assets/36191186/4eed3994-3e10-4c37-822f-38bf05eab9fb)
+[demographic]
 
 
 ## Mortgage
-[HCAI - Housing Credit availibility index]((https://www.urban.org/policy-centers/housing-finance-policy-center/projects/housing-credit-availability-index)https://www.urban.org/policy-centers/housing-finance-policy-center/projects/housing-credit-availability-index)
+[HCAI - Housing Credit availibility index](https://www.urban.org/policy-centers/housing-finance-policy-center/projects/housing-credit-availability-index)
 * HCAI_GOVT
 * HCAI_GSE - Government sponsorship enterprises
 * HCAI_PP - Portfolio and private label securities loan
 * MORTGAGE30US
 
-![mortgage](https://github.com/yasirali09/task.llc/assets/36191186/222c1134-ac40-4cae-aa15-fee25c762ef5)
+![Mortgage](https://github.com/yasirali09/task.llc/blob/master/images/mortgage.png)
 
 ## Health of the economy
 * GDP
@@ -34,7 +34,7 @@ In this project, we have developed a data science model to analyze and understan
 * UNRATE - Unemployment rate
 * unrate_construction - Unemployment rate in construction industry
 
-![economic](https://github.com/yasirali09/task.llc/assets/36191186/98a8fd22-cbca-4beb-86b4-2f08bca02313)
+![economic](https://github.com/yasirali09/task.llc/blob/master/images/economic.png)
 
 ## Construction Industry
 * employees_construction - Number of employees in construction industry
@@ -42,7 +42,7 @@ In this project, we have developed a data science model to analyze and understan
 * residential_const_val - Total value of residential construction(monthly)
 * producer_price_index_concrete_brick
 
-![construction](https://github.com/yasirali09/task.llc/assets/36191186/81a6fe28-19c2-4c63-9acb-73db1e9712a4)
+![Construction](https://github.com/yasirali09/task.llc/blob/master/images/construction.png)
 
 ## Housing industry
 * houses-for-sale-to-sold - Number of houses for sale vs number of houses that got sold
@@ -50,13 +50,13 @@ In this project, we have developed a data science model to analyze and understan
 * house_units_completed - Number of new house units completed in a given month
 * retail_sales_home_furnishing_stores - Sales of home furnishing stores
 
-![housing](https://github.com/yasirali09/task.llc/assets/36191186/491b1cd6-615e-4e6c-85d2-76d83ae8ab32)
+![Housing](https://github.com/yasirali09/task.llc/blob/master/images/housing.png)
 
 ## Infrastructure and permits
 * nonresidential_const_val - Total value of residential construction(monthly)
 * permits - Building permits
 
-![infrastructure](https://github.com/yasirali09/task.llc/assets/36191186/190c0a03-9591-4447-825e-22d8adb09b0d)
+![infrastructure](https://github.com/yasirali09/task.llc/blob/master/images/infrastructure.png)
 
 ### Some of the features are in annual and quaterly frequency, we have converted them into monthly frequency by assuming equal distribution of change of feature value during that period.
 
@@ -65,7 +65,7 @@ In this project, we have developed a data science model to analyze and understan
 * Some of the features are not linearly correlated with the target, but derivative of these features are influencing the prices.
 * To capture such derivates, we have taken cumulative sum, rolling sum (mostly 12 months), rate of change (past 12 months) and trend (introduced a categorical variable, "UP" for uptrend and "DOWN" for downtrend )
 
-![infrastructure](https://github.com/yasirali09/task.llc/assets/36191186/190c0a03-9591-4447-825e-22d8adb09b0d)
+![infrastructure](https://github.com/yasirali09/task.llc/blob/master/images/infrastructure.png)
 
 The variable permits is not linearly correlated with the target variable, but its derivate, (cumulative sum) has a correlation coefficient of 0.66 **-- Average length of time from start to completion of new privately owned residential buildings in the U.S is roungly 8 - 12 months , hence we have taken window size of 12 months**
 
@@ -74,7 +74,7 @@ The variable permits is not linearly correlated with the target variable, but it
 
 We have used Lasso regression, with alpha = 0.014 for feature selection
 
-![featimp](https://github.com/yasirali09/task.llc/assets/36191186/31cd1240-baeb-4c49-a4b5-c3e7d2f7cdc4)
+![featimp](https://github.com/yasirali09/task.llc/blob/master/images/featimp.png)
 
 #### Features with zero coefficients (eliminated)
 
@@ -136,7 +136,7 @@ We have used Lasso regression, with alpha = 0.014 for feature selection
 
 A Lasso regression with a alpha 0.014 is used to model the S&P Case-Schiller Home Price Index with the above features
 
-![prediction](https://github.com/yasirali09/task.llc/assets/36191186/7dd0f050-d6b7-4717-93f2-d821abb6611d)
+![prediction](https://github.com/yasirali09/task.llc/blob/master/images/prediction.png)
 
 #### Metrics 
 * MSE = 35.23196017633148
