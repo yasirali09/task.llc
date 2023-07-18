@@ -105,33 +105,33 @@ We have used Lasso regression, with alpha = 0.014 for feature selection
 
 #### Features with non-zero coefficients (influential factors)
 
-* residential_const_val 8.522123
-* employees_construction 7.202071
-* gdp_per_capita 7.075599
-* industrial_production_cement_cum 4.421657
-* HCAI_GSE 4.366235
-* permits_cum 4.031410
-* pvt_owned_house_under_const_cum 2.859470
-* home_ownership_rate 2.373083
-* HCAI_PP 2.350209
-* house_units_completed 2.175655
-* houses_for_sale_to_sold_rate 1.015123
-* population 0.859498
-* GDP_RATE 0.495746
-* pvt_owned_house_under_const 0.286402
-* retail_sales_home_furnishing_stores 0.284348
-* avg_expenditure_35_44 0.275713
-* houses_for_sale_to_sold 0.224290
-* CPI_TREND_UP 0.179261
-* GDP_TREND_UP 0.036036
-* industrial_production_cement -0.076664
-* CPI -0.076826
-* private_job_gains_rate -0.339181
-* EMP_CONST_TREND_UP -0.436380
-* avg_expenditure_25_34 -0.461559
-* personal_saving_rate -0.971455
-* nonresidential_const_val -1.144469
-* EMP_CONST_RATE -3.735800
+* residential_const_val - 8.522123
+* employees_construction - 7.202071
+* gdp_per_capita - 7.075599
+* industrial_production_cement_cum - 4.421657
+* HCAI_GSE - 4.366235
+* permits_cum - 4.031410
+* pvt_owned_house_under_const_cum - 2.859470
+* home_ownership_rate - 2.373083
+* HCAI_PP - 2.350209
+* house_units_completed - 2.175655
+* houses_for_sale_to_sold_rate - 1.015123
+* population - 0.859498
+* GDP_RATE - 0.495746
+* pvt_owned_house_under_const - 0.286402
+* retail_sales_home_furnishing_stores - 0.284348
+* avg_expenditure_35_44 - 0.275713
+* houses_for_sale_to_sold - 0.224290
+* CPI_TREND_UP - 0.179261
+* GDP_TREND_UP - 0.036036
+* industrial_production_cement - -0.076664
+* CPI - -0.076826
+* private_job_gains_rate - -0.339181
+* EMP_CONST_TREND_UP - -0.436380
+* avg_expenditure_25_34 - -0.461559
+* personal_saving_rate - -0.971455
+* nonresidential_const_val - -1.144469
+* EMP_CONST_RATE - -3.735800
 * HCAI_GOVT -4.522580
 
 A Lasso regression with a alpha 0.014 is used to model the S&P Case-Schiller Home Price Index with the above features
