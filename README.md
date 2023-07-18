@@ -14,7 +14,7 @@ In this project, we have developed a data science model to analyze and understan
 * average expenditure 45-54
 * average-expenditure-55-64
 
-![demographic](https://github.com/yasirali09/task.llc/assets/36191186/d3c3b275-ea39-4d14-afbd-2c95e628b6c5)
+![demo](https://github.com/yasirali09/task.llc/assets/36191186/4eed3994-3e10-4c37-822f-38bf05eab9fb)
 
 
 ## Mortgage
