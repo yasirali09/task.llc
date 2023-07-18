@@ -65,7 +65,7 @@ In this project, we have developed a data science model to analyze and understan
 * Some of the features are not linearly correlated with the target, but derivative of these features are influencing the prices.
 * To capture such derivates, we have taken cumulative sum, rolling sum (mostly 12 months), rate of change (past 12 months) and trend (introduced a categorical variable, "UP" for uptrend and "DOWN" for downtrend )
 
-[Image]
+![infrastructure](https://github.com/yasirali09/task.llc/assets/36191186/190c0a03-9591-4447-825e-22d8adb09b0d)
 
 The variable permits is not linearly correlated with the target variable, but its derivate, (cumulative sum) has a correlation coefficient of 0.66 **-- Average length of time from start to completion of new privately owned residential buildings in the U.S is roungly 8 - 12 months , hence we have taken window size of 12 months**
 
@@ -138,9 +138,10 @@ A Lasso regression with a alpha 0.014 is used to model the S&P Case-Schiller Hom
 
 ![prediction](https://github.com/yasirali09/task.llc/assets/36191186/7dd0f050-d6b7-4717-93f2-d821abb6611d)
 
-Metrics MSE = 35.23196017633148
-RMSE = 5.935651621880404
-R2 = 0.84
+####Metrics 
+* MSE = 35.23196017633148
+* RMSE = 5.935651621880404
+* R2 = 0.84
 
 
 ## Sources
